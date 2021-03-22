@@ -36,7 +36,7 @@
 // var username;
 
 // Task 02
-// var myName="NaveedHussain"
+// var myName="VijayKumar"
 
 // Task 03
 // var message;
@@ -45,7 +45,7 @@
 
 // Task # 04
 
-// var name="NaveedHussain";
+// var name="VijayKumar";
 // var age="24";
 // var course="Certfied Mobile Application Development";
 // alert(name);
@@ -58,7 +58,7 @@
 
 // Task # 06
 // var email;
-// email="hnaveed204@gmail.com";
+// email="vijaykumar@gmail.com";
 // alert("My email address is"+" "+email);
 
 // Task # 07
@@ -109,7 +109,7 @@ b. Product title
 c. Quantity i.e. how many products a visitor wants to
 order*/
 
-// var vname="Naveed"
+// var vname="vijay"
 // var ptitle="T Shirts";
 // var quantity=5;
 
@@ -797,7 +797,7 @@ result in your browser:*/
 // // entered matches the original password”. Show
 // // “Incorrect password” otherwise
 
-// var pass="N@veed123";
+// var pass="vijay123";
 
 // var userPass=prompt("Enter your Password");
 
@@ -862,7 +862,7 @@ result in your browser:*/
 
 // Task 3
 
-// var stuNames=new Array("Naveed","Hussain");
+// var stuNames=new Array("Vijay","Kumar");
 
 // Task 4
 
@@ -873,7 +873,7 @@ result in your browser:*/
 // var bolean=[true,false];
 
 // Task 6
-// var mixedArray=[2,3,Naveed,2,Ali];
+// var mixedArray=[2,3,vijay,2,arslan];
 
 // Task 7
 // var availableQualifications=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil","PhD"];
@@ -882,7 +882,7 @@ result in your browser:*/
 
 // Task # 08
 
-// var studentsName=["Ali","Asad","Shehzad"];
+// var studentsName=["kamran","Asad","Shehzad"];
 // var studentsMarks=[320,230,480];
 // var totalMarks=500;
 // document.writeln("Score of"+" "+studentsName[0]+" "+"is"+studentsMarks[0]+". Percentage is:"+studentsMarks[0]/totalMarks*100+"%");
@@ -987,6 +987,136 @@ result in your browser:*/
 //     "<option>"+phone[4]+"</option>"+
 //     "</select>"
 // )
+
+
+// assignment17-20 task1
+// var twoD = [[], []];
+
+
+// // assignment17-20 task2
+// var egmatrix = [ 
+//     [0,1,2,3], 
+//     [1,0,1,2], 
+//     [2,1,0,1], 
+//  ]; 
+//  for(var i = 0; i < egmatrix.length; i++) { 
+//      document.write(egmatrix[i].join(" ") + "<br>"); 
+//  } 
+
+
+// // assignment17-20 task3
+// var numricdata = [1,2,3,4,5,6,7,8,9,10]; 
+// for(var i = 0; i < numricdata.length; i++) { 
+//     document.write(numricdata[i] + "<br>"); 
+// } 
+
+
+// // assignment17-20 task4
+// var number=prompt("Enter number of table which you want"); 
+// var number1=prompt("Enter length of the table");
+// document.write("Multiplication of table "+number);
+// document.write("<br>"+"Length "+number1);
+// document.write("<br><br>");
+// for(var i = 1; i <= number1; i++) { 
+//     for (var j=1; j<=number1 ; j++){
+//          } 
+// document.write(number + " x " + i + " = " + (number * (i))+"<br>");
+// }
+
+
+// // assignment17-20 task5
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]; 
+// for(var i = 0; i < fruits.length; i++) { 
+//     document.write(fruits[i] + "<br>"); 
+// }
+// document.write("<br>");  
+// for(var j=0; j<fruits.length ; j++){
+//     document.write("elements at index "+j+" is "+fruits[j] + "<br>");
+// }
+
+
+// // assignment17-20 task6
+// var counting=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+// document.write( "Counting: ");
+// document.write( counting); 
+// document.write( "Reverse Counting:");
+// var counting1=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// var revecounting=counting1.reverse();
+// document.write( revecounting);
+// var counting2=[0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,16,17,18,19,20];
+// document.write( "Even:");
+// function getEvenNumbers() {
+
+// for (var i = 0; i < counting2.length; i++) {
+//     if (counting2[i] % 2 === 0) {
+//         document.writeln(counting2[i]+",");
+        
+//     }
+// }
+// }
+// getEvenNumbers();
+// document.write("<br><br>");
+// function getOddNumbers() {
+// document.write("Odd:"+"<br><br>")
+// for (var i = 0; i < counting2.length; i++) {
+//     if (counting2[i] % 2 === 1) {
+//         document.writeln(counting2[i]+",");
+        
+//     }
+// }
+// }
+
+// getOddNumbers();
+// document.write("<br><br>");
+// function getseriesNumbers() {
+// document.write("Series:"+"<br><br>")
+// for (var i = 0; i < counting2.length; i++) {
+//     if (counting2[i] % 2 === 0) {
+//         document.writeln(counting2[i]+"k,");
+        
+//     }
+// }
+// }
+
+// getseriesNumbers();
+
+
+// // assignment17-20 task7
+// var searching=prompt("Welcome to SSD Bakers. What do you want to order");
+// var search=["cake", "apple pie", "cookie", "chips", "patties"];
+// for(var j=0; j<search.length ; j++){
+// if(searching===search[j]){
+//   document.write (search[j]+" is "+"<b>available</b>"+" at index "+j+" in our bakery");
+// }
+// else
+// document.write("We are sorry."+searching+" is "+"<b>not available</b>"+" in our bakery");
+// }
+
+
+// // assignment17-20 task8
+// var A = [24, 53, 78, 91, 12];
+// var B=Math.max(A);
+// document.write( "Array Items:"+A);
+// document.write( "The Largest number is "+B);
+
+
+// // assignment17-20 task9
+// var A = [24, 53, 78, 91, 12];
+// var B=Math.min(A);
+// document.write( "Array Items:"+A);
+// document.write( "The Smallest number is "+B);
+
+
+// // assignment17-20 task10
+// for(var i=1; i<=100; i++){
+//     if(i%5===0){
+//         document.write(i+", ");
+//     }
+// }
+
+// // end of assignment17-20 
+
+
 
 
 
