@@ -1116,6 +1116,187 @@ result in your browser:*/
 
 // // end of assignment17-20 
 
+// assignment21-25 task1
+// var firstname=prompt("What is your first name");
+// var lastname=prompt("What is your last name");
+// var fullname=firstname+" "+lastname;
+// alert("Hello! "+fullname);
+
+
+
+// assignment21-25 task2
+// var input=prompt("What is your favourite mobile model");
+// document.write("My Favourite phone is: "+input+"<br>");
+// var finaloutput=input.length;
+// document.write("Length of string: "+finaloutput);
+
+
+
+// assignment21-25 task3
+// var a=("Pakistani");
+// document.write("String: "+a+"<br>");
+// var b=a.indexOf("n")
+// document.write("index of 'n': "+b);
+
+
+// assignment21-25 task4
+// var a=("Hello World");
+// document.write("String: "+a+"<br>");
+// var b=a.lastIndexOf('l');
+// document.write("Last index of 'l': "+b);
+
+
+// // assignment21-25 task5
+// var a=("Pakistani");
+// document.write("String: "+a+"<br>");
+// var b=a.charAt(3);
+// document.write("Character at index 3: "+b);
+
+
+// // assignment21-25 task6
+// var firstname=prompt("What is your first name");
+// var lastname=prompt("What is your last name");
+// var fullname=firstname.concat(" "+lastname);
+// alert("Hello! "+fullname);
+
+
+// // assignment21-25 task7
+// var a=("Hyderabad");
+// document.write("City: "+a+"<br>");
+// var result = a.replace("Hyder", "Islam");
+// document.write("After replacement: "+result);
+
+
+// // assignment21-25 task8
+// var a=("Ali and Sami are best friends. They play cricket and football together.");
+// document.write("Message: "+a+"<br>");
+// var result = a.replace(/and/g, "&");
+// document.write("After Replacement: "+result);
+
+
+// // assignment21-25 task9
+// var a=("472");
+// document.write("Value: "+a+"<br>");
+// var b=("String");
+// document.write("Type: "+b+"<br>");
+// var c=("472");
+// document.write("Value: "+c+"<br>");
+// var result = b.replace("String", "number");
+// document.write("Type: "+result);
+
+
+
+// // assignment21-25 task10
+// var a=prompt("Write something");
+// document.write("User input: "+a+"<br>");
+// var b=a.toUpperCase();
+// document.write("Upper case: "+b);
+
+
+// // assignment21-25 task11
+// var a=prompt("Write something");
+// document.write("User input: "+a+"<br>");
+// var b=a.charAt(0).toUpperCase() + a.substr(1).toLowerCase();
+// document.write("Title case: "+b);
+
+
+
+// // assignment21-25 task12
+// var num="35.36";
+// document.write("Number: "+num+"<br>");
+// var b=num.replace(".","");
+// var c=b.toString();
+// document.write("Result: "+c);
+
+
+// // assignment21-25 task13
+// var username = prompt("Enter your name: ");
+// var charValue;
+// for(var i = 0; i < username.length; i++){
+//     charValue = username[i].charCodeAt(0);
+//     if(charValue === 33 || charValue === 44 || charValue === 46 || charValue === 64){
+//         alert("Please enter a valid username")
+//     }
+// }
+
+
+// // assignment21-25 task14   
+// var arr = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var a = prompt("What do you want to order: ");
+// a = a.toLowerCase();
+// var check = false;
+// for(var i = 0; i < arr.length; i++){
+//     if(a === arr[i]){
+//         document.write(arr[i] + " is available at index " + i + " in our bakery");
+//         check = true;
+//     }
+// }
+// if (check === false){
+//     document.write("We are sorry. " + a+ " is not available in our bakery");
+// }
+
+
+// // assignment21-25 task15
+// var password = prompt("Enter your password: ");
+// var passwordLength = false;
+// var passwordChar = false;
+// var passwordInt = false;
+// var passwordStart = true;
+// for (i = 0; i < password.length; i++){
+//     var charValue = password[i].charCodeAt(0);
+//     if (charValue >= 65 && charValue <= 90 ){
+//         passwordChar = true;
+//     }
+//     else if (charValue >= 97 && charValue <= 122 ){
+//         passwordChar = true;
+//     }
+// }
+// for (i = 0; i < password.length; i++){
+//     var charValue = password[i].charCodeAt(0);  
+//     if (charValue >= 48 && charValue <= 57 ){
+//         passwordInt = true;
+//     }
+// }
+// var charValue = password.charCodeAt(0);
+// if (charValue >= 48 && charValue <= 57 ){
+//     passwordStart = false;
+// }
+// if(password.length >= 6){
+//     passwordLength = true;
+// }
+
+// if(passwordChar === false || passwordInt === false || passwordLength === false || passwordStart === false){
+//     alert("Enter valid Password");
+// }
+
+// else{
+//     alert("Welcome");
+// }
+  
+
+// // assignment21-25 task16
+// var a = "University of Karachi";
+// var arr = a.split("");
+// for(var i=0; i<arr.length; i++){
+//     document.write(arr[i] + "<br>");
+// }
+
+
+// // assignment21-25 task17
+// var a=prompt("Enter something");
+// document.write("User input: "+a+"<br>");
+// var b=a.charAt(a.length-1);
+// document.write("Last Char of input: "+b);
+
+
+// // assignment21-25 task18
+// var a = "the quick brown fox jumps over the lazy dog";
+// var count = (a.match(/the/g) || []).length;
+// document.write("Text: " + a + "<br>");
+// document.write("There are " + count + " occurrence(s) of the word 'the'");
+
+// // end of assignment21-25
+
 
 
 
